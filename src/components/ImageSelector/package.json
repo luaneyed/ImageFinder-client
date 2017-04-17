@@ -1,0 +1,6 @@
+{
+  "name": "ImageSelector",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ImageSelector.js"
+}

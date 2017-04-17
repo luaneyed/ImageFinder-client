@@ -1,0 +1,35 @@
+.wrapper {
+  width: 100%;
+  height: 100%;
+
+  .dropzone {
+    height: 100%;
+
+    .imageSelector {
+      height: 100px;
+    }
+    .content {
+      margin: 10px;
+      height: calc(100% - 220px);
+    }
+  }
+}
+
+.rankingButton {
+  cursor: pointer;
+}
+
+.ranking {
+  height: 100px;
+  overflow-y: scroll;
+}
+
+.rank {
+  width: 100%;
+  height: 20px;
+  font-size: 13px;
+}
+
+.imageView {
+  margin-top: 20px;
+}

@@ -1,0 +1,42 @@
+:global {
+
+  html, body {
+    height: 100%;
+    overflow: hidden;
+  }
+
+  img {
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+
+  * {
+    &:focus {
+      outline: none;
+    }
+  }
+
+  #main {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: hidden;
+    overflow-x: auto;
+  }
+
+  .app-wrapper {
+    height: 100%;
+  }
+
+  .scroll {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100%;
+  }
+}
